@@ -7,6 +7,7 @@ end
 
 
 gem "rails", "~> 5.1.2"
+gem "bootstrap-sass", "~>3.3.7"
 gem "sqlite3"
 gem "puma", "~> 3.7"
 gem "sass-rails", "~> 5.0"
@@ -40,6 +41,7 @@ group :development, :test do
   gem "jshint"
   gem "bundler-audit"
   gem "rubocop", "~> 0.35.0", require: false
+  gem "rubocop-checkstyle_formatter", require: false
   gem "rails_best_practices"
   gem "reek"
   gem "railroady"
@@ -51,5 +53,6 @@ group :test do
   gem "simplecov-rcov", require: false
   gem "simplecov-json"
   gem "shoulda-matchers"
+  gem "rails-controller-testing"
 end
 gem "tzinfo-data", platforms: [:mingw, :mswin, :x64_mingw, :jruby]
