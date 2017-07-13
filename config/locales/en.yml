@@ -78,3 +78,11 @@ en:
     content: |
       <h1>Sign up</h1>
       <p>This will be a signup page for new users.</p>
+  user:
+    pwd_confirm: "Confirmation"
+    create: "Create my account"
+    error: "Khong tim thay user"
+    success: "Welcome to the Sample App!"
+  error:
+    st1: "The form contains "
+    st2: "error"
