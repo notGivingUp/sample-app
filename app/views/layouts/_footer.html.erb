@@ -1,0 +1,12 @@
+<footer class="footer">
+  <small>
+    <%= t("footer.title").html_safe %>
+  </small>
+  <nav>
+   <ul>
+    <li><%= link_to t("app.about"), about_path %></li>
+    <li><%= link_to t("app.contact"), contact_path %></li>
+    <li><%= link_to t("footer.new"), "http://news.railstutorial.org/" %></li>
+   </ul>
+  </nav>
+</footer>

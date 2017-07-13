@@ -35,11 +35,14 @@ en:
     st1: "This is the home page for the"
     st2: "Ruby on Rails Tutorial"
     st3: "sample application."
+    welcome: "Welcome to the Sample App"
+    signup: "Sign up now!"
   help:
     title: "Help"
     st1: "Get help on the Ruby on Rails Tutorial at the"
     st2: "Rails Tutorial help section"
     st3: "To get help on this sample app, see the"
+    st4: "book"
   about:
     title: "About"
     about_site: |
@@ -55,4 +58,23 @@ en:
     st1: "Contact the Ruby on Rails Tutorial about the sample app at the"
     st2: "contact page"
   rort: "Ruby on Rails Tutorial"
-  sampleapp: "Ruby on Rails Sample App"
+  sampleapp: "Ruby on Rails Tutorial Sample App"
+  app:
+    title: "sample app"
+    home: "Home"
+    help: "Help"
+    login: "Log in"
+    alt: "Rails logo"
+    link: "http://rubyonrails.org/"
+    about: "About"
+    contact: "Contact"
+  footer:
+    title: |
+      The <a href="http://www.railstutorial.org/">Ruby on Rails Tutorial</a>
+      by <a href="http://www.michaelhartl.com/">Michael Hartl</a>
+    new: "News"
+  signup:
+    title: "Sign up"
+    content: |
+      <h1>Sign up</h1>
+      <p>This will be a signup page for new users.</p>
