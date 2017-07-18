@@ -86,3 +86,14 @@ en:
   error:
     st1: "The form contains "
     st2: "error"
+  session:
+    title: "Log in"
+    newuser: "New user?"
+    signup: "Sign up now!"
+    create_error: "Invalid email/password combination"
+  header:
+    user: "Users"
+    account: "Account"
+    profile: "Profile"
+    setting: "Settings"
+    logout: "Log out"
