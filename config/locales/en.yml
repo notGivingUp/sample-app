@@ -63,7 +63,6 @@ en:
     title: "sample app"
     home: "Home"
     help: "Help"
-    login: "Log in"
     alt: "Rails logo"
     link: "http://rubyonrails.org/"
     about: "About"
@@ -86,3 +85,15 @@ en:
   error:
     st1: "The form contains "
     st2: "error"
+  session:
+    login: "Log in"
+    newuser: "New user?"
+    signup: "Sign up now!"
+    login_fail: "Invalid email/password combination"
+  header:
+    user: "Users"
+    account: "Account"
+    profile: "Profile"
+    setting: "Settings"
+    logout: "Log out"
+    login: "Log in"
