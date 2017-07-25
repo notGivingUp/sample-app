@@ -82,6 +82,10 @@ en:
     create: "Create my account"
     error: "Khong tim thay user"
     success: "Welcome to the Sample App!"
+    pls: "Please log in."
+    delete: "delete"
+    confirm: "You sure?"
+    destroy: "User deleted"
   error:
     st1: "The form contains "
     st2: "error"
@@ -98,3 +102,11 @@ en:
     setting: "Settings"
     logout: "Log out"
     login: "Log in"
+  edit:
+    title: "Edit user"
+    update: "Update your profile"
+    submit: "Save changes"
+    change: "change"
+    success: "Profile updated"
+  index:
+    title: "All users"
