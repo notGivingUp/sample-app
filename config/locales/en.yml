@@ -86,6 +86,7 @@ en:
     delete: "delete"
     confirm: "You sure?"
     destroy: "User deleted"
+    check: "Please check your email to activate your account."
   error:
     st1: "The form contains "
     st2: "error"
@@ -110,3 +111,18 @@ en:
     success: "Profile updated"
   index:
     title: "All users"
+  mailers:
+    subject: "Account activation"
+    hi: "Hi"
+    welcome: "Welcome to the Sample App!
+      Click on the link below to activate your account:"
+    title: "Sample App"
+    activate: "Activate"
+  mail:
+    invalid_link: "Invalid activation link"
+    activated: "Account activated!"
+    not_activated_pls_check: "Account not activated.
+      Please check your email to activate your account."
+  password:
+    title: "User#password_reset"
+    findme: "find me in app/views/user_mailer/password_reset.html.erb"
