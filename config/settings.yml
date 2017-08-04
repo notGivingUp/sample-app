@@ -1,0 +1,4 @@
+expired_time: 2
+name_leng_max: 50
+email_leng_max: 255
+pass_leng_min: 6

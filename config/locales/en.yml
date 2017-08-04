@@ -96,6 +96,7 @@ en:
     signup: "Sign up now!"
     login_fail: "Invalid email/password combination"
     remember: "Remember me on this computer"
+    forget: "(forgot password)"
   header:
     user: "Users"
     account: "Account"
@@ -118,11 +119,26 @@ en:
       Click on the link below to activate your account:"
     title: "Sample App"
     activate: "Activate"
+    reset: "Password reset"
   mail:
     invalid_link: "Invalid activation link"
     activated: "Account activated!"
     not_activated_pls_check: "Account not activated.
       Please check your email to activate your account."
   password:
-    title: "User#password_reset"
+    title: "Password reset"
     findme: "find me in app/views/user_mailer/password_reset.html.erb"
+    forgot: "Forgot password"
+    click: "To reset your password click the link below:"
+    expire: "This link will expire in two hours."
+    warning: "If you did not request your password to be reset, please ignore this email and
+      your password will stay as it is."
+    reset: "Reset password"
+    info: "Email sent with password reset instructions"
+    danger: "Email address not found"
+    success: "Password has been reset."
+    empty: "can't be empty"
+    reset_expire: "Password reset has expired."
+    confirm: "Confirmation"
+    submit: "Submit"
+    update: "Update password"
