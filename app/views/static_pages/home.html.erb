@@ -1,12 +1,30 @@
-<div class="center jumbotron">
-<h1><%= t "home.welcome" %>
-<h2>
-  <%= t "home.st1" %>
-  <a href="http://www.railstutorial.org/"><%= t "home.st2" %></a>
-  <%= t "home.st3" %>
-</h2>
-<%= link_to t("home.signup"), signup_path, class: "btn btn-lg btn-primary" %>
-</div>
+<% if logged_in? %>
+  <div class="row">
+    <aside class="col-md-4">
+      <section class="user_info">
+        <%= render "shared/user_info" %>
+      </section>
+      <section class="micropost_form">
+        <%= render "shared/micropost_form", micropost: @micropost %>
+      </section>
+    </aside>
+    <div class="col-md-8">
+      <h3><%= t "home.feed" %></h3>
+      <%= render "shared/feed", feed_items: @feed_items %>
+    </div>
+  </div>
+<% else %>
+  <div class="center jumbotron">
+    <h1><%= t "home.welcome" %>
+    <h2>
+      <%= t "home.st1" %>
+      <%= link_to t("home.st2"), "http://www.railstutorial.org/" %>
+      <%= t "home.st3" %>
+    </h2>
+    <%= link_to t("home.signup"), signup_path,
+      class: "btn btn-lg btn-primary" %>
+  </div>
 
-<%= link_to image_tag("rails.png", alt: t("app.alt")),
-  "http://rubyonrails.org/" %>
+  <%= link_to image_tag("rails.png", alt: t("app.alt")),
+    "http://rubyonrails.org/" %>
+<% end %>

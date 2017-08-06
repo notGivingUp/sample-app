@@ -37,6 +37,7 @@ en:
     st3: "sample application."
     welcome: "Welcome to the Sample App"
     signup: "Sign up now!"
+    feed: "Micropost Feed"
   help:
     title: "Help"
     st1: "Get help on the Ruby on Rails Tutorial at the"
@@ -142,3 +143,18 @@ en:
     confirm: "Confirmation"
     submit: "Submit"
     update: "Update password"
+  microposts:
+    title: "Microposts"
+    post: "Posted "
+    ago: " ago."
+    header: "micropost"
+    profile: view my profile"
+    created: "Micropost created!"
+    delete: "delete"
+    confirm: "You sure?"
+    deleted: "Micropost deleted"
+    new: "Compose new micropost..."
+    newpost: "Post"
+  picture:
+    add_error: "should be less than 5MB"
+    alert: "Maximum file size is 5MB. Please choose a smaller file."
