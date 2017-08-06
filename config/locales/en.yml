@@ -113,6 +113,7 @@ en:
     success: "Profile updated"
   index:
     title: "All users"
+    view: "view my profile"
   mailers:
     subject: "Account activation"
     hi: "Hi"
@@ -158,3 +159,8 @@ en:
   picture:
     add_error: "should be less than 5MB"
     alert: "Maximum file size is 5MB. Please choose a smaller file."
+  stat:
+    following: "following"
+    followers: "followers"
+    follow: "Follow"
+    unfollow: "Unfollow"

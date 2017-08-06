@@ -6,3 +6,4 @@ content_leng_max: 140
 picture:
   max_size: 5
   resize: [400, 400]
+  show_follow: 30
